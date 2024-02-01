@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Climate+Crisis&family=Roboto+Condensed:ital@1&display=swap');
+@keyframes rotateInfinite {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+  }
+
+  .animate-rotate-infinite {
+    animation: rotateInfinite  8s linear infinite;
+  }
+
+*{
+ font-family: 'Playfair Display', serif;
+}
+
